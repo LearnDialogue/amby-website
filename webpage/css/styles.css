@@ -65,6 +65,11 @@ html {
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 
+.image-border {
+  border: 1px solid black;
+}
+
+
 #header .logo img {
   max-height: 50px;
   margin: 0;
@@ -1240,35 +1245,28 @@ img{
   margin-bottom: 0;
 }
 
-/* Begin FAQs */
 
-#questions .container{
-  /* font-family: Gilroy-light; */
-  /* padding: 60px 0 60px 0; */
-}
-
-
-#questions .accordion-item {
+.accordion-item {
   background: #F2F2F2;
   border-bottom: 1px solid #00c7cf;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
 }
-#questions .accordion-item:hover {
+.accordion-item:hover {
   background-color: #F2F2F2;
 }
-#questions .accordion-item time {
+.accordion-item time {
   padding-bottom: 5px;
   display: inline-block;
 }
 
-#questions .accordion-item .accordion-button{
+.accordion-item .accordion-button{
   background: #F2F2F2;
   
 }
 
-#questions .accordion-item h2 {
+.accordion-item h2 {
   font-family: var(--bs-font-sans-serif);
   /* font-family: Gilroy-Bold; */
   /* font-size: xx-large; */
@@ -1277,14 +1275,15 @@ img{
   font-weight: 600;
   /* margin-bottom: 5px; */
 }
-#questions .accordion-body {
+
+.accordion-body {
   font-family: Gilroy-light; 
   font-weight: normal;
   font-size: 16px;
 }
-#questions .accordion-item p {
+.accordion-item p {
   font-family: Gilroy-light;
-  font-style: italic;
+  /* font-style: italic; */
   /* color: #cf2600; */
   margin-bottom: 0;
 }
